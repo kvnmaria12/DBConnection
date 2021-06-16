@@ -2,9 +2,9 @@ import java.sql.*;
 
 public class dbConnection {
 
-    private static String url = "jdbc:mysql://localhost:3306/sys";
-    private static String username = "root";
-    private static String password = "kvnmaria@12";
+    private static final String url = "jdbc:mysql://localhost:3306/sys";
+    private static final String username = "root";
+    private static final String password = "kvnmaria@12";
     private static final String driverName = "com.mysql.cj.jdbc.Driver";
     private static Connection con;
 
