@@ -16,7 +16,7 @@ public class dbConnection {
             try {
                 con = DriverManager.getConnection(url, username, password);
             } catch (SQLException ex) {
-                // log an exception. fro example:
+                // log an exception. for example:
                 System.out.println("Failed to create the database connection.");
             }
         } catch (ClassNotFoundException ex) {

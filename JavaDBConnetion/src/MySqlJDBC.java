@@ -37,6 +37,10 @@ public class MySqlJDBC {
 
         setQuery();
 
+
     }
+
+
+
 
 }
